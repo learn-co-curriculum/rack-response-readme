@@ -20,3 +20,44 @@ A header is metadata that describes the response. The web is multimedia. We deli
 ### Body
 
 The body is actual data we want to send. Content is king and it lives in the body of the response. For a web page it's a bunch of HTML. For lots of other stuff, it's a bunch of binary data. But you already know that all data is just bits and characters, so binary, text, images, it's really all the same.
+
+### Now Let's Put It All Together...
+
+```
+HTTP/1.0 200
+```
+
+This indicates that it is a HTTP response, and the corresponding status of the response.
+
+```
+Allow: GET, POST
+Server: WebSitePro/2.0.41
+Date: Mon, 19 July 2008 10:15:23 GMT
+Server-Name: avi.flatironschool
+From: avi@flatironschool.com
+Content-Length: 654
+```
+
+These are the headers of the HTTP response. They simply are a collection of metadata that help to describe the parameters of the response.
+
+```
+<html>
+  <h1>Everything is Awesome</h1>
+</html>
+```
+
+Finally, this is the body of the response. 
+
+```
+HTTP/1.0 200
+Allow: GET, POST
+Server: WebSitePro/2.0.41
+Date: Mon, 19 July 2008 10:15:23 GMT
+Server-Name: avi.flatironschool
+From: avi@flatironschool.com
+Content-Length: 654
+
+<html>
+  <h1>Everything is Awesome</h1>
+</html>
+```

@@ -61,3 +61,5 @@ Content-Length: 654
   <h1>Everything is Awesome</h1>
 </html>
 ```
+
+<a href='https://learn.co/lessons/rack-response-readme' data-visibility='hidden'>View this lesson on Learn.co</a>

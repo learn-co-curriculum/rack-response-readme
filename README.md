@@ -62,4 +62,4 @@ Content-Length: 654
 </html>
 ```
 
-<a href='https://learn.co/lessons/rack-response-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rack-response-readme' title='HTTP Response'>HTTP Response</a> on Learn.co and start learning to code for free.</p>
